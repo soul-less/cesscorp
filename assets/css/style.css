@@ -1,46 +1,3 @@
-:root{
-    --primary: #FF8105; /* Updated primary color */
-    --secondary: #e1d3b7; /* Updated secondary color */
-    --tertiary: #f9f7f2; /* Using light color as tertiary */
-    --success: #72F2EB; /* Adjust this if you have a different success color */
-    --info: #A1C7E0; /* Adjust this if you have a different info color */
-    --warning: #FF9933; /* Keeping the warning color as is */
-    --danger: #E3371E; /* Keeping the danger color as is */
-    --dark: #343434;
-}
-
-/* Overriding default Bootstrap classes */
-.bg-primary, .btn-primary {
-    background-color: var(--primary) !important;
-}
-
-.bg-secondary, .btn-secondary {
-    background-color: var(--secondary) !important;
-}
-
-.bg-success, .btn-success {
-    background-color: var(--success) !important;
-}
-
-.bg-info, .btn-info {
-    background-color: var(--info) !important;
-}
-
-.bg-warning, .btn-warning {
-    background-color: var(--warning) !important;
-}
-
-.bg-danger, .btn-danger {
-    background-color: var(--danger) !important;
-}
-
-.nav-link {
-    color: var(--primary) !important;
-}
-
-.nav-link:hover {
-    color: var(--warning) !important;
-}
 
 
 
@@ -69,7 +26,7 @@
 
 .bg-dark {
     color: white !important;
-    background-color: var(--dark) !important;
+    background-color: #251504 !important;
 }
 /*** Button Start ***/
 .btn {
@@ -117,6 +74,7 @@
 .btn.btn-primary {
     color: var(--bs-white);
     border: none;
+    background-color: #FF8105;
 }
 
 .btn.btn-primary:hover {
@@ -155,6 +113,7 @@
     vertical-align: middle;
     margin-left: 8px;
     color: var(--bs-primary);
+    background-color: #a7a7a7b4;
 }
 
 .topbar .dropdown .dropdown-menu a:hover {
@@ -613,7 +572,7 @@
 /*** FAQs Start ***/
 .faq-section .accordion .accordion-item .accordion-header .accordion-button {
     color: var(--bs-white);
-    background: rgba(1, 95, 201, .8);
+    background: rgba(255, 130, 5, 0.8);
     font-size: 18px;
 }
 
